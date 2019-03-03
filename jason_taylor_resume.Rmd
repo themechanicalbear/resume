@@ -1,0 +1,99 @@
+---
+output:
+  pdf_document:
+     latex_engine: xelatex
+  sansfont: Calibri Light
+subparagraph: yes
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyhead[RE, RO]{Written in R: github.com/themechanicalbear/resume}
+- \fancyfoot[LE, RO]{Jason Taylor}
+- \usepackage{titlesec}
+- \titleformat{\section}[block]
+    {\Large\bfseries\filright}{\fbox{\itshape\thesection}}{1em}{}
+- \titleformat{\subsection}[block]
+    {\normalfont\bfseries\filright}{\fbox{\itshape\thesection}}{1em}{}
+- \titleformat{\subsubsection}[block]
+    {\normalfont\bfseries\filright}{\fbox{\itshape\thesection}}{1em}{}
+- \titlespacing*{\section}{0pt}{4ex}{0ex}
+- \titlespacing*{\subsection}{0pt}{0ex}{0ex}
+- \titlespacing*{\subsubsection}{0pt}{0ex}{0ex}
+- \usepackage[fontsize=11pt]{scrextend}
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\section{JASON TAYLOR}  
+\raggedright\subsubsection{DATA SCIENTIST – DECISION SUPPORT}  
+\raggedleft 602-619-7763  
+taylorizing@gmail.com  
+linkedin.com/in/jason-taylor23  
+github.com/themechanicalbear/mobstr  
+
+\raggedright\section{SUMMARY:}  
+
+Extensive experience in translating and delivering business value through technology. Broad range of technical proficiency, including data analysis, modeling and visualization. Passionate about using technology and collaboration to make a positive impact.
+
+\section{PROFESSIONAL EXPERIENCE:}
+\subsection{DISCOUNT TIRE - 2005-PRESENT}
+\subsubsection{DATA SCIENTIST – INNOVATION - 2013-PRESENT}
+
+Lead the technical innovation program developing technology prototypes, working alongside technology teams and business stakeholders. Principal Statistical Programmer for Data Analytics team.
+
+* Developed demand forecasting algorithm for staffing enabling more than 1000 retail locations with a more accurate way to predict their scheduling needs
+* Performed extensive data cleansing, feature engineering, and imputation work enabling quicker model selection
+* Quantitative analysis for customer adoption of new technology with Shiny app that enables review of key metrics providing insights into prioritizing improvements
+* Brought reproducibility to the Analytics Team with the creation of an internal R package including functions for:
+  + System connectivity
+  + Parameterized data filtering
+  + Integrated documentation
+  + Consistently formatted and automated output templates for Excel, PowerPoint, PDF, rMarkdown, and HTML
+* Enabled significant efficiency gains working with Business Analysts to automate data collection and analysis of reports generated in Excel by moving to scripted solutions in R
+* Mobile application development for “visit the vehicle” customer interaction workflow
+* Apple wallet cards for customer appointments
+* Customer self-check-in technology (BLE beacons, tablet application, QR codes)
+* Wearable technology for authentication and movement tracking
+
+\pagebreak[4]
+\subsection{}
+\subsection{BRYAN UNIVERSITY 2018-PRESENT}
+\subsubsection{TEACHING ASSISTANT – MASTER OF PUBLIC HEALTH PROGRAM}
+
+* Develop analysis datasets, assignment code examples, and video lectures
+* Provide student assistance with assignments through online video meetings and discussion groups
+* Grade assignment code and capstone submissions
+
+\subsection{THE MECHANICAL BEAR, LLC, — 2014-PRESENT}
+\subsubsection{OWNER/INVESTMENT ADVISOR}
+
+* Apply my passion for finance, data, and research to assist others with their retirement goals.  Create quantitative derivatives market research as a tool to educate investors.
+* Present analysis via Shiny application to local Meetup group and as lunch and learns for co-workers.
+* Share code and examples for these analysis projects via GitHub and blog.
+
+\subsection{DISCOUNT TIRE}
+\subsubsection{MANAGER, IT INFRASTRUCTURE — 2007-2013}
+\subsubsection{SR. INFRASTRUCTURE ENGINEER — 2005-2007}
+
+* Lead cross-functional teams, enterprise technical support, and system integration activities. Supervised staff of sixty and administered project and operational budgets. Introduced improvements to IT and Business Segment alignment. 
+* Lead broad range of departments including (Server, Network, Data Center, Application Support, PC Support, Asset Management, and Provisioning) 
+* Developed strong relationships with Executive Management as a trusted expert, by communicating technical information clearly while focusing on business value 
+* Worked closely with the Chief Accounting Officer on Vendor negotiations and contracts
+* Collaborated with Infrastructure, PMO and project teams to ensure on-time, quality delivery of the organization's technical projects 
+* Developed a highly functioning Infrastructure Team by emphasizing ownership, accountability, training, teamwork, and delivering business value
+
+\section{EDUCATION:}
+
+Data Science Specialization, Johns Hopkins University, Coursera  
+Data Scientist with R – DataCamp  (23 courses)
+
+\section{TECHNICAL SKILLS:}
+
+**R programming:** RStudio, modeling, data mining, package development, tidyverse, xts, caret  
+**Amazon Web Services:** S3, Athena, EC2, Redshift, DynamoDB, IAM  
+**Data Visualization:** Shiny, ggvis, ggplot2, gganimate, rbokeh  
+**Reproducible Analysis:** git, travis-ci, parameterized rmarkdown, blogdown
+
