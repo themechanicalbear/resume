@@ -7,7 +7,7 @@ subparagraph: yes
 header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
-- \fancyhead[RE, RO]{Written in R: github.com/themechanicalbear/resume}
+- \fancyhead[RE, RO]{Written in R - github.com/themechanicalbear/resume}
 - \fancyfoot[LE, RO]{Jason Taylor}
 - \usepackage{titlesec}
 - \titleformat{\section}[block]
