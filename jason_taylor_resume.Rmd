@@ -1,5 +1,5 @@
 ---
-geometry: "left=.5in,right=.5in,top=.5in,bottom=.5in"
+geometry: "left=.5in,right=.5in,top=1in,bottom=.75in"
 output:
   pdf_document:
      latex_engine: xelatex
