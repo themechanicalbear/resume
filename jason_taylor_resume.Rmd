@@ -1,4 +1,5 @@
 ---
+geometry: "left=.5in,right=.5in,top=.5in,bottom=.5in"
 output:
   pdf_document:
      latex_engine: xelatex
@@ -20,23 +21,64 @@ header-includes:
 - \titlespacing*{\subsection}{0pt}{0ex}{0ex}
 - \titlespacing*{\subsubsection}{0pt}{0ex}{0ex}
 - \usepackage[fontsize=11pt]{scrextend}
+- \usepackage{multicol}
 ---
 
+```{r todo, include = FALSE}
+# Consider adding more details in your professional summary section, such as years of professional experience and top skills. Reference this article for tips on how to write a standout summary.
+#  
+# Be sure to follow the same format for all bullet points in your professional experience section. Each bullet point should include two equally important parts: what and why. First, explain what task you were responsible for or what project you completed. Next, include why, which details the positive impact you made to the organization, such as increasing profit or optimizing systems. It’s best to be specific and include quantifiable data. You can also specify how you were impacted, such as your newly gained leadership or organizational skills.
+# 
+# After updating your professional work experience in your resume, add your updated information to your Indeed Prime profile.
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+\begin{multicols}{2}
 \section{JASON TAYLOR}  
 \raggedright\subsubsection{DATA SCIENTIST – DECISION SUPPORT}  
+\vfill\null
+\columnbreak
 \raggedleft 602-619-7763  
 taylorizing@gmail.com  
 linkedin.com/in/jason-taylor23  
 github.com/themechanicalbear/mobstr  
+\end{multicols}
 
 \raggedright\section{SUMMARY:}  
 
 Extensive experience in translating and delivering business value through technology. Broad range of technical proficiency, including data analysis, modeling and visualization. Passionate about using technology and collaboration to make a positive impact.
+
+\section{TECHNICAL SKILLS:}
+\begin{multicols}{2}
+\textit{\bfseries Expert: } 
+
+\textbf{R Programming:} (Package Development, Profiling, RStudio, tidyverse, timeseries)
+
+\textbf{Data Analytics:} (Data Mining, Exploratory Analysis, Imputation, Modeling)
+
+\textbf{Data Visualization:} (flexdashboard, gganimate, ggplot2, ggvis, rbokeh, Shiny)
+
+\textbf{Reproducible Research:} (blogdown, git, rmarkdown, travis-ci)
+\vfill\null
+\columnbreak
+\textit{\bfseries Proficient: } 
+
+\textbf{Amazon Web Services:} (Athena, DynamoDB, EC2, IAM, Redshift, S3)
+
+\textbf{Machine Learning:} (caret, Clustering, Random Forest, Regression)
+
+\textit{\bfseries Familiar: }
+
+(Java, Javascript, JMP, JSON, Microstategy, Python, SQL, Weka, XML)
+
+\end{multicols}
+
+\begingroup
+\let\clearpage\relax 
+\onecolumn 
 
 \section{PROFESSIONAL EXPERIENCE:}
 \subsection{DISCOUNT TIRE - 2005-PRESENT}
@@ -58,7 +100,8 @@ Lead the technical innovation program developing technology prototypes, working 
 * Customer self-check-in technology (BLE beacons, tablet application, QR codes)
 * Wearable technology for authentication and movement tracking
 
-\pagebreak[4]
+\endgroup
+<!-- \pagebreak[4] -->
 \subsection{}
 \subsection{BRYAN UNIVERSITY 2018-PRESENT}
 \subsubsection{TEACHING ASSISTANT – MASTER OF PUBLIC HEALTH PROGRAM}
@@ -89,11 +132,4 @@ Lead the technical innovation program developing technology prototypes, working 
 
 Data Science Specialization, Johns Hopkins University, Coursera  
 Data Scientist with R – DataCamp  (23 courses)
-
-\section{TECHNICAL SKILLS:}
-
-**R programming:** RStudio, modeling, data mining, package development, tidyverse, xts, caret  
-**Amazon Web Services:** S3, Athena, EC2, Redshift, DynamoDB, IAM  
-**Data Visualization:** Shiny, ggvis, ggplot2, gganimate, rbokeh  
-**Reproducible Analysis:** git, travis-ci, parameterized rmarkdown, blogdown
 
