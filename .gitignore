@@ -33,6 +33,7 @@
 *.utf8.md
 *.knit.md
 *.nb.html
+*.log
 
 # Data files (sample data for testing included in data/git_options)
 inst/*
