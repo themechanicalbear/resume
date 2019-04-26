@@ -70,9 +70,7 @@ Extensive experience in translating and delivering business value through techno
 
 \textbf{Machine Learning:} (caret, Clustering, Random Forest, Regression)
 
-\textit{\bfseries Familiar: }
-
-(Java, Javascript, JMP, JSON, Microstategy, Python, SQL, Weka, XML)
+\textbf{\bfseries Statistical Analysis Other:} (Java, Javascript, JMP, JSON, Microstategy, Python, SQL, Weka, XML)
 
 \end{multicols}
 
@@ -86,7 +84,7 @@ Extensive experience in translating and delivering business value through techno
 
 Lead the technical innovation program developing technology prototypes, working alongside technology teams and business stakeholders. Principal Statistical Programmer for Data Analytics team.
 
-* Developed demand forecasting algorithm for staffing enabling more than 1000 retail locations with a more accurate way to predict their scheduling needs
+* Developed demand forecasting algorithm for staffing demand at more than 1000 retail locations with an increase in MAPE accuracy of greater than 10%
 * Performed extensive data cleansing, feature engineering, and imputation work enabling quicker model selection
 * Quantitative analysis for customer adoption of new technology with Shiny app that enables review of key metrics providing insights into prioritizing improvements
 * Brought reproducibility to the Analytics Team with the creation of an internal R package including functions for:
@@ -130,6 +128,8 @@ Lead the technical innovation program developing technology prototypes, working 
 
 \section{EDUCATION:}
 
-Data Science Specialization, Johns Hopkins University, Coursera  
-Data Scientist with R – DataCamp  (23 courses)
+* BS Data Management and Analytics, Western Governors University 2020
+* Data Science Specialization, Johns Hopkins University, Coursera  2016
+* Data Scientist with R – DataCamp
+* Python Programming - DataCamp
 
