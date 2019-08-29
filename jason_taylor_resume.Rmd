@@ -24,21 +24,13 @@ header-includes:
 - \usepackage{multicol}
 ---
 
-```{r todo, include = FALSE}
-# Consider adding more details in your professional summary section, such as years of professional experience and top skills. Reference this article for tips on how to write a standout summary.
-#  
-# Be sure to follow the same format for all bullet points in your professional experience section. Each bullet point should include two equally important parts: what and why. First, explain what task you were responsible for or what project you completed. Next, include why, which details the positive impact you made to the organization, such as increasing profit or optimizing systems. It’s best to be specific and include quantifiable data. You can also specify how you were impacted, such as your newly gained leadership or organizational skills.
-# 
-# After updating your professional work experience in your resume, add your updated information to your Indeed Prime profile.
-```
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 \begin{multicols}{2}
 \section{JASON TAYLOR}  
-\raggedright\subsubsection{DATA SCIENTIST – DECISION SUPPORT}  
+\raggedright\subsubsection{DATA SCIENTIST}  
 \vfill\null
 \columnbreak
 \raggedleft 602-619-7763  
@@ -47,13 +39,37 @@ linkedin.com/in/jason-taylor23
 github.com/themechanicalbear/mobstr  
 \end{multicols}
 
-\raggedright\section{SUMMARY:}  
+Experienced leader translating and delivering business value through technology.  Possess a broad range of technical proficiency, including data analysis, modeling, and visualization. Passionate about using technology and collaboration to make a positive impact.
 
-Extensive experience in translating and delivering business value through technology. Broad range of technical proficiency, including data analysis, modeling and visualization. Passionate about using technology and collaboration to make a positive impact.
+\begingroup
+\let\clearpage\relax 
+\onecolumn 
 
-\section{TECHNICAL SKILLS:}
+\subsection{}
+\subsection{DISCOUNT TIRE - 2013-PRESENT}
+\subsubsection{DATA SCIENTIST / INNOVATION}
+
+Data Science Principle R Programmer
+
+Developed the Technical Innovation Program
+
+* Developed market forecasting algorithm for staffing utilized by more than 1000 retail locations improving accuracy and efficiency.
+* Conduct extensive data cleansing, feature engineering, and imputation work enabling more responsive model selection.
+* Deliver quantitative analysis of new technology adoption via Shiny application which enables review of critical metrics providing insights toward prioritizing improvements.
+* Brought reproducibility to the Analytics team with internal R package which includes functions for system connectivity, parameterized data filtering, and integrated documentation.
+* Assist Business Analysts with automating data collection and analysis of reports generated in Excel by moving to scripted solutions in R.
+
+\endgroup
+\subsection{BRYAN UNIVERSITY 2018-PRESENT}
+\subsubsection{TEACHING ASSISTANT – MASTER OF PUBLIC HEALTH PROGRAM}
+
+* Develop datasets, r code assignments, and video lectures
+* Provide students assistance with assignments via online meetings and discussion groups
+* Grade assignment code and capstone submissions
+
+
+\section{SKILLS:}
 \begin{multicols}{2}
-\textit{\bfseries Expert: } 
 
 \textbf{R Programming:} (Package Development, Profiling, RStudio, tidyverse, timeseries)
 
@@ -64,72 +80,12 @@ Extensive experience in translating and delivering business value through techno
 \textbf{Reproducible Research:} (blogdown, git, rmarkdown, travis-ci)
 \vfill\null
 \columnbreak
-\textit{\bfseries Proficient: } 
 
-\textbf{Amazon Web Services:} (Athena, DynamoDB, EC2, IAM, Redshift, S3)
+\textbf{Cloud Computing - AWS:} (Athena, DynamoDB, EC2, IAM, Redshift, S3)
 
 \textbf{Machine Learning:} (caret, Clustering, Random Forest, Regression)
 
-\textbf{\bfseries Statistical Analysis Other:} (Java, Javascript, JMP, JSON, Microstategy, Python, SQL, Weka, XML)
+\textbf{\bfseries Statistical Analysis Other:} (Java, Javascript, JMP, JSON, Python, SQL, XML)
 
 \end{multicols}
-
-\begingroup
-\let\clearpage\relax 
-\onecolumn 
-
-\section{PROFESSIONAL EXPERIENCE:}
-\subsection{DISCOUNT TIRE - 2005-PRESENT}
-\subsubsection{DATA SCIENTIST – INNOVATION - 2013-PRESENT}
-
-Lead the technical innovation program developing technology prototypes, working alongside technology teams and business stakeholders. Principal Statistical Programmer for Data Analytics team.
-
-* Developed demand forecasting algorithm for staffing demand at more than 1000 retail locations with an increase in MAPE accuracy of greater than 10%
-* Performed extensive data cleansing, feature engineering, and imputation work enabling quicker model selection
-* Quantitative analysis for customer adoption of new technology with Shiny app that enables review of key metrics providing insights into prioritizing improvements
-* Brought reproducibility to the Analytics Team with the creation of an internal R package including functions for:
-  + System connectivity
-  + Parameterized data filtering
-  + Integrated documentation
-  + Consistently formatted and automated output templates for Excel, PowerPoint, PDF, rMarkdown, and HTML
-* Enabled significant efficiency gains working with Business Analysts to automate data collection and analysis of reports generated in Excel by moving to scripted solutions in R
-* Mobile application development for “visit the vehicle” customer interaction workflow
-* Apple wallet cards for customer appointments
-* Customer self-check-in technology (BLE beacons, tablet application, QR codes)
-* Wearable technology for authentication and movement tracking
-
-\endgroup
-<!-- \pagebreak[4] -->
-\subsection{}
-\subsection{BRYAN UNIVERSITY 2018-PRESENT}
-\subsubsection{TEACHING ASSISTANT – MASTER OF PUBLIC HEALTH PROGRAM}
-
-* Develop analysis datasets, assignment code examples, and video lectures
-* Provide student assistance with assignments through online video meetings and discussion groups
-* Grade assignment code and capstone submissions
-
-\subsection{THE MECHANICAL BEAR, LLC, — 2014-PRESENT}
-\subsubsection{OWNER/INVESTMENT ADVISOR}
-
-* Apply my passion for finance, data, and research to assist others with their retirement goals.  Create quantitative derivatives market research as a tool to educate investors.
-* Present analysis via Shiny application to local Meetup group and as lunch and learns for co-workers.
-* Share code and examples for these analysis projects via GitHub and blog.
-
-\subsection{DISCOUNT TIRE}
-\subsubsection{MANAGER, IT INFRASTRUCTURE — 2007-2013}
-\subsubsection{SR. INFRASTRUCTURE ENGINEER — 2005-2007}
-
-* Lead cross-functional teams, enterprise technical support, and system integration activities. Supervised staff of sixty and administered project and operational budgets. Introduced improvements to IT and Business Segment alignment. 
-* Lead broad range of departments including (Server, Network, Data Center, Application Support, PC Support, Asset Management, and Provisioning) 
-* Developed strong relationships with Executive Management as a trusted expert, by communicating technical information clearly while focusing on business value 
-* Worked closely with the Chief Accounting Officer on Vendor negotiations and contracts
-* Collaborated with Infrastructure, PMO and project teams to ensure on-time, quality delivery of the organization's technical projects 
-* Developed a highly functioning Infrastructure Team by emphasizing ownership, accountability, training, teamwork, and delivering business value
-
-\section{EDUCATION:}
-
-* BS Data Management and Analytics, Western Governors University 2020
-* Data Science Specialization, Johns Hopkins University, Coursera  2016
-* Data Scientist with R – DataCamp
-* Python Programming - DataCamp
 
