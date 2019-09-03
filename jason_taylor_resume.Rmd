@@ -36,10 +36,10 @@ knitr::opts_chunk$set(echo = TRUE)
 \raggedleft 602-619-7763  
 taylorizing@gmail.com  
 linkedin.com/in/jason-taylor23  
-github.com/themechanicalbear/mobstr  
+github.com/themechanicalbear  
 \end{multicols}
 
-Experienced leader translating and delivering business value through technology.  Possess a broad range of technical proficiency, including data analysis, modeling, and visualization. Passionate about using technology and collaboration to make a positive impact.
+Experienced leader translating and delivering business value through technology.  Broad range of technical proficiency, including data analysis, modeling, and visualization. Passionate about using technology and collaboration to make a positive impact.
 
 \begingroup
 \let\clearpage\relax 
@@ -54,10 +54,10 @@ Data Science Principle R Programmer
 Developed the Technical Innovation Program
 
 * Developed market forecasting algorithm for staffing utilized by more than 1000 retail locations improving accuracy and efficiency.
-* Conduct extensive data cleansing, feature engineering, and imputation work enabling more responsive model selection.
+* Perform extensive data cleansing, feature engineering, and imputation work enabling more responsive model selection.
 * Deliver quantitative analysis of new technology adoption via Shiny application which enables review of critical metrics providing insights toward prioritizing improvements.
-* Brought reproducibility to the Analytics team with internal R package which includes functions for system connectivity, parameterized data filtering, and integrated documentation.
-* Assist Business Analysts with automating data collection and analysis of reports generated in Excel by moving to scripted solutions in R.
+* Brought reproducibility to the analytics team with internal R package which includes code for system connectivity, parameterized data filtering, and integrated documentation.
+* Assist business analysts by automating data collection and analytics with scripted R solutions.
 
 \endgroup
 \subsection{BRYAN UNIVERSITY 2018-PRESENT}
